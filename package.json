@@ -1,7 +1,8 @@
 {
-    "name": "primeng",
-    "version": "6.1.4-SNAPSHOT",
+    "name": "primeng-advanced-calendar",
+    "version": "6.1.4-23",
     "license": "MIT",
+    "description": "Fork of primeng to add support to p-calendar features like 'enabled-days'.",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -10,10 +11,16 @@
         "lint": "ng lint",
         "e2e": "ng e2e"
     },
+    "author" :{ 
+        "name" : "David Canos", "email" : "davidcaos@gmail.com"
+    }, 
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primeng.git"
+        "url": "https://github.com/Canos/primeng.git"
     },
+    "keywords": [
+        "primeng", "p-calendar"
+    ],
     "devDependencies": {
         "@angular/animations": "^6.1.0",
         "@angular/common": "^6.1.0",
